@@ -5,8 +5,8 @@ async function getData(url) {
   }
 
   async function main() {
-    // use getData function to retrieve JSON, save it to a variable 'data'
-    const data = await getData('https://s3.amazonaws.com/sebavalenzuela.com/url_list.json');
+    // use getData function to retrieve JSON file, save it to a variable 'data'
+    const data = await getData('JSONfile_URL');
 
     // 'instrument' example: 'Bass'
     // "For every instrument (key) in this data dictionary..."
